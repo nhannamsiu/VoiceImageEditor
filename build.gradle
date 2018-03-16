@@ -1,0 +1,84 @@
+buildscript {
+    repositories {
+        jcenter()
+        maven { url 'https://houndify.com/maven/' }
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.0.1'
+    }
+}
+
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion "26.0.2"
+
+    defaultConfig {
+        applicationId "com.soundhound.android.houndify.sample"
+        minSdkVersion 16
+        targetSdkVersion 26
+        versionCode 1010
+        versionName "1.3"
+
+        ndk {
+            abiFilters "armeabi-v7a", "x86"
+        }
+    }
+
+    signingConfigs {
+        debug {
+            storeFile file("debug.keystore")
+        }
+    }
+
+    buildTypes {
+        debug {
+            signingConfig signingConfigs.debug
+        }
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES.txt'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/notice.txt'
+        exclude 'META-INF/license.txt'
+        exclude 'META-INF/dependencies.txt'
+        exclude 'META-INF/LGPL2.1'
+    }
+}
+
+repositories {
+    // local directory
+    flatDir { dirs 'libs' }
+
+    // Houndify public maven repo
+    maven { url 'https://houndify.com/maven/' }
+
+    // public maven repo
+    jcenter()
+
+    // Google public maven repo
+    maven { url 'https://maven.google.com' }
+}
+
+dependencies {
+    compile 'com.android.support:support-compat:26.0.2'
+    compile 'com.android.support:cardview-v7:26.0.2'
+    compile 'com.android.support:appcompat-v7:26.0.2'
+
+    // Houndify Library
+    compile 'hound.android:hound-sdk:1.3.0'
+
+    // Phrase Spotter Library
+    compile 'hound.android:phrasespotter:1.8.0'
+}

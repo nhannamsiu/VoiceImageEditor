@@ -1,0 +1,35 @@
+#Internal package file, do not edit.
+#Fri Mar 16 16:14:01 ICT 2018
+7.path=flower/1.jpg
+2.base=C\:\\Users\\User\\Desktop\\VoiceImageEditor\\build\\intermediates\\assets\\debug
+5.set=ASSET
+0.path=leonardodicaprio/2.jpg
+2.baseType=DIRECTORY
+3.base=C\:\\Users\\User\\Desktop\\VoiceImageEditor\\build\\intermediates\\assets\\debug
+7.baseType=DIRECTORY
+2.set=ASSET
+1.path=carlostevez/1.jpg
+4.base=C\:\\Users\\User\\Desktop\\VoiceImageEditor\\build\\intermediates\\assets\\debug
+7.set=ASSET
+count=8
+5.baseType=DIRECTORY
+2.path=leonardodicaprio/1.jpg
+5.base=C\:\\Users\\User\\Desktop\\VoiceImageEditor\\build\\intermediates\\assets\\debug
+4.set=ASSET
+3.path=flower/3.jpg
+6.base=C\:\\Users\\User\\Desktop\\VoiceImageEditor\\build\\intermediates\\assets\\debug
+3.baseType=DIRECTORY
+1.set=ASSET
+4.path=leonardodicaprio/3.jpg
+7.base=C\:\\Users\\User\\Desktop\\VoiceImageEditor\\build\\intermediates\\assets\\debug
+6.set=ASSET
+1.baseType=DIRECTORY
+6.baseType=DIRECTORY
+5.path=flower/2.jpg
+0.base=C\:\\Users\\User\\Desktop\\VoiceImageEditor\\build\\intermediates\\assets\\debug
+0.baseType=DIRECTORY
+3.set=ASSET
+6.path=carlostevez/2.jpg
+1.base=C\:\\Users\\User\\Desktop\\VoiceImageEditor\\build\\intermediates\\assets\\debug
+4.baseType=DIRECTORY
+0.set=ASSET

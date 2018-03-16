@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="soundhound.android:vad-1.2.0">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/vad-1.2.0.aar/b30f300937ef978f46265f6895cf678f/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/vad-1.2.0.aar/b30f300937ef978f46265f6895cf678f/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/soundhound.android/vad/1.2.0/d6e373bce584debd8fc70599ec8f3a91cb684b67/vad-1.2.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
